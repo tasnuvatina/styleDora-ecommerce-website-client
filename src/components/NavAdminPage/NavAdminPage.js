@@ -16,14 +16,6 @@ function NavAdminPage() {
   const {loggedInUser, setLoggedInUser,isUserLoggedIn,setIsUserLoggedIn} = useContext(userContext);
 
   const handleClick = () => setClick(!click);
-  const handleSignOut=()=>{
-    firebase.auth().signOut().then(() => {
-      setLoggedInUser({});
-      setIsUserLoggedIn(false);
-    }).catch((error) => {
-      console.log(error);
-    });
-  }
 
   return (
     <>

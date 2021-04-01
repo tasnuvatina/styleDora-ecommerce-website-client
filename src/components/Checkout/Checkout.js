@@ -50,8 +50,6 @@ const Checkout = () => {
           setProduct({});
         }
       });
-
-    // console.log(orderInfo,product);
   };
 
   return (
@@ -91,10 +89,6 @@ const Checkout = () => {
                 <span>{product.price}</span>
               </th>{" "}
             </tr>
-            {/* <tr>
-              {" "}
-              <th></th> <th></th> <th></th>{" "}
-            </tr> */}
           </tfoot>
         </table>
         <div className="text-center">
