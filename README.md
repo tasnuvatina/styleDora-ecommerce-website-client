@@ -4,7 +4,7 @@ Wesite link : https://full-stack-client.web.app
 A web  application created with html,css,javascript,react,react-bootstrap,node js,express js,mongodb.
 
 ## Features
-StyleDora is an e-commerce website that sells T-shirts.On the home page visitors can see different products ,can place orders,review orders .Admins of this website can add new products,delete and update them.
+StyleDora is an e-commerce website that sells T-shirts.On the home page visitors can see different products ,can place orders,review orders .Admins of this website can add new products,delete and update them.It has custom api and database.The website is responsive for large medium and small screen.
 
 ## Tech/framework used
 
@@ -23,12 +23,20 @@ StyleDora is an e-commerce website that sells T-shirts.On the home page visitors
 * heroku
  
 ## Screenshots
-![js-standard-style](./src/images/screenshots/React-App.png)
-![js-standard-style](./src/images/screenshots/React-App-(1).png)
-![js-standard-style](./src/images/screenshots/React-App-(2).png)
-![js-standard-style](./src/images/screenshots/React-App-(3).png)
-![js-standard-style](./src/images/screenshots/React-App-(4).png)
-![js-standard-style](./src/images/screenshots/React-App-(5).png)
+![js-standard-style](./src/images/screenshots/StyleDora.png)
+![js-standard-style](./src/images/screenshots/StyleDora1.png)
+![js-standard-style](./src/images/screenshots/StyleDora2.png)
+![js-standard-style](./src/images/screenshots/StyleDora3.png)
+![js-standard-style](./src/images/screenshots/StyleDora4.png)
+![js-standard-style](./src/images/screenshots/StyleDora5.png)
+![js-standard-style](./src/images/screenshots/StyleDora6.png)
+![js-standard-style](./src/images/screenshots/StyleDora7.png)
+![js-standard-style](./src/images/screenshots/StyleDora8.png)
+![js-standard-style](./src/images/screenshots/StyleDora9.png)
+![js-standard-style](./src/images/screenshots/StyleDora10.png)
+![js-standard-style](./src/images/screenshots/StyleDora11.png)
+![js-standard-style](./src/images/screenshots/StyleDora12.png)
+![js-standard-style](./src/images/screenshots/StyleDora13.png)
 
 ## Installation and Setup Instructions
 
