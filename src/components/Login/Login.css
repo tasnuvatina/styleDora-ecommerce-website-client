@@ -1,0 +1,31 @@
+.login{
+    text-align: center;
+    background-color: #fff;
+}
+.form-button{
+  background-color: #12124F;
+  color: #fff;
+  border:0px;
+  padding:10px 0px;
+  border-radius: 5px;
+}
+.error{
+  color:red;
+}
+.icon {
+    font-size: 40px;
+    font-weight: 800;
+    margin: 5px 15px;
+  }
+  .google {
+    color:#F4B400;
+  }
+  .google:hover {
+    color:#c28e00;
+  }
+  .facebook{
+    color:#3b5998
+  }
+  .facebook{
+    color:#214799
+  }

@@ -1,0 +1,20 @@
+.order-card-main{
+    display:grid;
+    grid-template-columns: 1fr;
+    padding: 10px 10px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px darkgray;
+}
+.order-card-name{
+    border-bottom: 1px solid lightgray;
+}
+.order-card-info{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.ordered-product-image{
+    width: 100px;
+    border-radius: 15px;
+}
