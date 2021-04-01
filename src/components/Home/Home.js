@@ -12,7 +12,11 @@ const Home = () => {
     <div className="row w-80 text-center mx-auto">
       {products.length === 0 && (
         <div className="text-center mt-5 mx-auto">
-          <div className="spinner-border" role="status" style={{width:"3rem",height:"3rem"}}>
+          <div
+            className="spinner-border"
+            role="status"
+            style={{ width: "3rem", height: "3rem" }}
+          >
             <span className="sr-only">Loading...</span>
           </div>
         </div>
