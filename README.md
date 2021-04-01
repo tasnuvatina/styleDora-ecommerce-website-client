@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# Full Stack project-StyleDora website
+Wesite link : https://full-stack-client.web.app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A web  application created with html,css,javascript,react,react-bootstrap,node js,express js,mongodb.
 
-## Available Scripts
+## Features
+StyleDora is an e-commerce website that sells T-shirts.On the home page visitors can see different products ,can place orders,review orders .Admins of this website can add new products,delete and update them.
 
-In the project directory, you can run:
+## Tech/framework used
 
-### `npm start`
+<b>Built with</b>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* html
+* css
+* javascript
+* react
+* react-router
+* react-bootstrap
+* node js
+* express js
+* mongodb
+* firebase
+* heroku
+ 
+## Screenshots
+![js-standard-style](./src/images/screenshots/React-App.png)
+![js-standard-style](./src/images/screenshots/React-App-(1).png)
+![js-standard-style](./src/images/screenshots/React-App-(2).png)
+![js-standard-style](./src/images/screenshots/React-App-(3).png)
+![js-standard-style](./src/images/screenshots/React-App-(4).png)
+![js-standard-style](./src/images/screenshots/React-App-(5).png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Installation and Setup Instructions
 
-### `npm test`
+Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Installation:
 
-### `npm run build`
+`npm install`  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To Run Test Suite:  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+`npm test`  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To Start Server:
 
-### `npm run eject`
+`npm start`  
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+To Visit App:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`localhost:3000/ideas` 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## API Reference
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+API link : https://apple-sundae-80140.herokuapp.com
 
-## Learn More
+## How to use 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Go to the website ***home*** to view different products,their images,name,price and brand
+* Click on the ***Buy Now*** button to place order of the product
+* if you are not logged in already ,Please ***Log in*** to place order.
+* if you are logged in in will take you directly to ***check out*** page .Where you can check out the order of that product.
+* On the navbar click on the ***Orders*** link to see and review all the order you have placed so far.You can delete orders by clicking ***Cancel*** button.
+* On the ***Admin*** page you will have three options to **Manage Product**,**Add Product** and **Edit Product**.
+* To see recent deals please visit the deals page .
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Credits
+I have done this project as an assignment of programming hero web development course. Most of the technologies I have used here is taught by our respectable instructor Jhankar Mahbub.
 
-### Code Splitting
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+© [Tasnuva Rahman](https://github.com/tasnuvatina)
