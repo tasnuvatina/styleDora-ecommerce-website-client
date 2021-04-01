@@ -12,7 +12,7 @@ const Orders = () => {
   let [orders, setOrders] = useState([]);
 
   useEffect(() => {
-    let url = `http://localhost:5000/loadOrders/${email}`;
+    let url = `https://apple-sundae-80140.herokuapp.com/loadOrders/${email}`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => setOrders(data));

@@ -9,7 +9,7 @@ const SingleOrderCard = (props) => {
     let {productName,image,brand,price,email,_id}= order;
     //delete order
     const handleOrderDelete=(id)=>{
-       let url=`http://localhost:5000/deleteOrder/${id}`
+       let url=`https://apple-sundae-80140.herokuapp.com/deleteOrder/${id}`
        fetch(url,{
            method:'DELETE'
        })

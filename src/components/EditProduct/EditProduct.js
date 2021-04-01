@@ -12,13 +12,13 @@ const EditProduct = () => {
   let [productToUpdate,setProductToUpdate]=useState({});
   const [updatedSuccess,setUpdatedSuccess]=useState(false)
   useEffect(() => {
-    fetch("http://localhost:5000/products")
+    fetch("https://apple-sundae-80140.herokuapp.com/products")
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, [products]);
   //delete product
   const handleLoad = (id) => {
-      fetch(`http://localhost:5000/singleProduct/${id}`)
+      fetch(`https://apple-sundae-80140.herokuapp.com/singleProduct/${id}`)
       .then(res=>res.json())
       .then(data=>{
         setProductToUpdate(data);
@@ -31,7 +31,7 @@ const EditProduct = () => {
       let price=priceRef.current.value;
       let brand=brandRef.current.value;
       let updatedProduct={id,name,price,brand}
-      fetch(`http://localhost:5000/updateProduct/${id}`,{
+      fetch(`https://apple-sundae-80140.herokuapp.com/updateProduct/${id}`,{
           method:'PATCH',
           headers:{
               'Content-type':'application/json'

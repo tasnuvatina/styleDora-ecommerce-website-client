@@ -31,7 +31,7 @@ const [imageURL,setImageURL]=useState(null);
         brand:data.brand,
         imageURL:imageURL
     } 
-    const url ='http://localhost:5000/addProduct';
+    const url ='https://apple-sundae-80140.herokuapp.com/addProduct';
     
     fetch(url,{
         method:'POST',

@@ -18,7 +18,7 @@ const Checkout = () => {
   console.log(orderPlaced);
 
   useEffect(() => {
-    let url = `http://localhost:5000/singleProduct/${id}`;
+    let url = `https://apple-sundae-80140.herokuapp.com/singleProduct/${id}`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => setProduct(data));
@@ -34,7 +34,7 @@ const Checkout = () => {
       productId: product._id,
       image: product.imageURL,
     };
-    const url = "http://localhost:5000/addOrder";
+    const url = "https://apple-sundae-80140.herokuapp.com/addOrder";
 
     fetch(url, {
       method: "POST",
