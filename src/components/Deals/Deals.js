@@ -15,6 +15,11 @@ const dealsData=[
         pic:'https://www.eztshirtprints.com/wp-content/uploads/2018/04/image2.jpg',
         price:'5',
         deal:'Get the best deals for custom T Shirts printed at only $4.99'
+    },
+    {
+        pic:'http://dslv9ilpbe7p1.cloudfront.net/-H11mfBwG71-sNL2Vl1KNQ_store_banner_image.jpeg',
+        price:'5',
+        deal:'Order promotional T Shirts printed at only $4.99'
     }
 ]
 
